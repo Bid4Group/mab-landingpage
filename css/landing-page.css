@@ -14,19 +14,14 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   padding-top: 8rem;
-  padding-bottom: 8rem;
+  border-bottom: #868e96 solid 1px;
+  color: #000 !important;
 }
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #fff;
   height: 100%;
   width: 100%;
   top: 0;
@@ -41,11 +36,21 @@ header.masthead h1 {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 12rem;
-    padding-bottom: 12rem;
+    border-bottom: #868e96 solid 1px;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+.mab-howitworks-left {
+  width: 20%;
+  height: 100%;
+}
+
+.mab-howitworks-right {
+  width: 20%;
+  height: 100%;
 }
 
 .showcase .showcase-text {
@@ -100,7 +105,7 @@ header.masthead h1 {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
+  background-color: #fff;
   background: url("../img/bg-masthead.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -112,7 +117,7 @@ header.masthead h1 {
 
 .call-to-action .overlay {
   position: absolute;
-  background-color: #212529;
+  background-color: #fff;
   height: 100%;
   width: 100%;
   top: 0;
@@ -123,4 +128,16 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.mab-navbar-logo {
+  width: 10%;
+}
+
+.mab-navbar-link {
+  color: #fff;
 }
