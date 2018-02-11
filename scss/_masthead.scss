@@ -1,6 +1,6 @@
 header.masthead {
   position: relative;
-  padding-top: 8rem;
+  padding-top: 6rem;
   border-bottom: $gray-600 solid 1px;  
   color: $black !important;
   .overlay {
@@ -16,7 +16,7 @@ header.masthead {
     font-size: 2rem;
   }
   @media (min-width: 768px) {
-    padding-top: 12rem;
+    padding-top: 8rem;
     border-bottom: $gray-600 solid 1px;
     h1 {
       font-size: 3rem;

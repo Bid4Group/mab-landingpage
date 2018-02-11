@@ -14,7 +14,7 @@ h6 {
 
 header.masthead {
   position: relative;
-  padding-top: 8rem;
+  padding-top: 6rem;
   border-bottom: #868e96 solid 1px;
   color: #000 !important;
 }
@@ -35,7 +35,7 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
+    padding-top: 8rem;
     border-bottom: #868e96 solid 1px;
   }
   header.masthead h1 {
@@ -66,11 +66,6 @@ header.masthead h1 {
   .showcase .showcase-text {
     padding: 7rem;
   }
-}
-
-.features-icons {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
 }
 
 .features-icons .features-icons-item {
@@ -128,6 +123,12 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  background-color: #000;
+  color: #fff;
+}
+
+footer.footer a {
+  color: #fff;
 }
 
 .navbar {
@@ -140,4 +141,24 @@ footer.footer {
 
 .mab-navbar-link {
   color: #fff;
+}
+
+.nav-tabs .nav-item {
+  min-width: 250px;
+}
+
+.nav-tabs .nav-link.active {
+  border-top-color: #007bff;
+  border-radius: 0;
+  border-top-width: 2px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+  ul {
+    margin-top: 10px;
+  }
 }
