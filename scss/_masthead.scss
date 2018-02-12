@@ -3,8 +3,8 @@ header.masthead {
   padding-top: 6rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  border-bottom: $gray-600 solid 1px;  
   color: $black !important;
+  border-bottom: 1px solid $gray-400;
   .overlay {
     position: absolute;
     background-color: $white;
@@ -21,7 +21,7 @@ header.masthead {
     padding-top: 8rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    border-bottom: $gray-600 solid 1px;
+    border-bottom: 1px solid $gray-400;
     h1 {
       font-size: 3rem;
     }
