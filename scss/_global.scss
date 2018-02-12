@@ -11,3 +11,8 @@ h6 {
   @include body-font;
   font-weight: 700;
 }
+
+.btn-primary {
+  background-color: $blue;
+  border-color: $blue;
+}

@@ -1,9 +1,10 @@
 .navbar {
-    background-color: $black;
+    background-color: $black !important;
 }
 
 .mab-navbar-logo {
     width: 10%;
+    margin-left: 1rem;
 }
 
 .mab-navbar-link {
