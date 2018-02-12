@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 h1,
@@ -8,13 +8,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
 }
 
 header.masthead {
   position: relative;
   padding-top: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   border-bottom: #868e96 solid 1px;
   color: #000 !important;
 }
@@ -36,6 +38,8 @@ header.masthead h1 {
 @media (min-width: 768px) {
   header.masthead {
     padding-top: 8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     border-bottom: #868e96 solid 1px;
   }
   header.masthead h1 {
@@ -54,17 +58,17 @@ header.masthead h1 {
 }
 
 .showcase .showcase-text {
-  padding: 3rem;
+  padding: 2.5rem;
 }
 
 .showcase .showcase-img {
-  min-height: 30rem;
+  min-height: 25rem;
   background-size: cover;
 }
 
 @media (min-width: 768px) {
   .showcase .showcase-text {
-    padding: 7rem;
+    padding: 3rem;
   }
 }
 
@@ -121,8 +125,8 @@ header.masthead h1 {
 }
 
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   background-color: #000;
   color: #fff;
 }
