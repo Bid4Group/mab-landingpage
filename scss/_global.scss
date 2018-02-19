@@ -16,3 +16,12 @@ h6 {
   background-color: $blue;
   border-color: $blue;
 }
+
+.btn-primary:hover {
+  background-color: $blue-100;
+  border-color: $blue-100;
+}
+
+a:hover {
+  color: $blue-100;
+}

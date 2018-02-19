@@ -17,6 +17,15 @@ h6 {
   border-color: #416eaa;
 }
 
+.btn-primary:hover {
+  background-color: #4E84CC;
+  border-color: #4E84CC;
+}
+
+a:hover {
+  color: #4E84CC;
+}
+
 header.masthead {
   position: relative;
   padding-top: 6rem;
