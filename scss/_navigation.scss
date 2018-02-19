@@ -12,9 +12,15 @@
     padding: 0.5rem 2rem;
 }
 
+.nav-item {
+    @media(max-width: 550px) {
+        width: 100%;
+    }
+}
+
 .nav-tabs .nav-item {
     min-width: 250px;
-    border-bottom: 0;    
+    border-bottom: 0;   
 }
 
 .nav-tabs .nav-link.active {

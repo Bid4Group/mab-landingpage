@@ -31,9 +31,15 @@ header.masthead {
 .mab-howitworks-left {
   width: 20%;
   height: 100%;
+  @media (max-width: 576px) {
+    display: none;
+  }
 }
 
 .mab-howitworks-right {
   width: 20%;
   height: 100%;
+  @media (max-width: 576px) {
+    display: none;
+  }
 }

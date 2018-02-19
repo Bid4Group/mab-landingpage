@@ -57,9 +57,21 @@ header.masthead h1 {
   height: 100%;
 }
 
+@media (max-width: 576px) {
+  .mab-howitworks-left {
+    display: none;
+  }
+}
+
 .mab-howitworks-right {
   width: 20%;
   height: 100%;
+}
+
+@media (max-width: 576px) {
+  .mab-howitworks-right {
+    display: none;
+  }
 }
 
 .showcase .showcase-text {
@@ -152,6 +164,12 @@ footer.footer a {
 .mab-navbar-link {
   color: #fff;
   padding: 0.5rem 2rem;
+}
+
+@media (max-width: 550px) {
+  .nav-item {
+    width: 100%;
+  }
 }
 
 .nav-tabs .nav-item {
