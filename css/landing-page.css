@@ -13,8 +13,8 @@ h6 {
 }
 
 .btn-primary {
-  background-color: #446ca7;
-  border-color: #446ca7;
+  background-color: #416eaa;
+  border-color: #416eaa;
 }
 
 header.masthead {
@@ -160,7 +160,7 @@ footer.footer a {
 }
 
 .nav-tabs .nav-link.active {
-  border-top-color: #446ca7;
+  border-top-color: #416eaa;
   border-radius: 0;
   border-top-width: 2px;
   border-bottom: 0;
